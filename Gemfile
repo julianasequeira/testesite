@@ -1,0 +1,10 @@
+source 'http://rubygems.org'
+
+gem 'site_prism'
+gem 'capybara'
+gem 'cucumber'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'pry'
+gem 'without_accents'
+gem 'httpclient'
