@@ -8,12 +8,13 @@ end %>
 
 # Template
 default: -p html_report -p json_report -p chrome -p training
+ci: -p json_report -p chrome -p training
 
 training: ENVIRONMENT=training
 
 # Reports
 html_report: --format pretty --format html --out=reports/features_report_<%= RUN_TSTAMPs %>.html
-json_report: --format pretty --format json --out=reports/features_report_<%= RUN_TSTAMPs %>.json
+json_report: --format pretty --format json --out=reports/features_report.json
 
 # Browsers
 chrome: BROWSER=chrome
