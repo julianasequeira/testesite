@@ -1,6 +1,7 @@
 # language: pt
 
 @end
+@all
 Funcionalidade: [Sacola] fazer compras
     COMO usuário
     QUERO poder adicionar produtos ao carrinho

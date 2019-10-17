@@ -1,6 +1,7 @@
 # language: pt
 
 @logout
+@all
 Funcionalidade: [Logout] fazer logout
     COMO usuário
     QUERO poder fazer logout

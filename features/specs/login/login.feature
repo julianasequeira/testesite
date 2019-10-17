@@ -1,6 +1,7 @@
 # language: pt
 
 @login
+@all
 Funcionalidade: [Login] fazer login 
     COMO usuário
     QUANDO fizer login

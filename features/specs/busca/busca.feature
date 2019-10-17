@@ -1,6 +1,7 @@
 # language: pt
 
 @busca
+@all
 Funcionalidade: [Busca] buscar por produtos
     COMO usuário
     QUERO poder realizar busca 

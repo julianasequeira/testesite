@@ -1,6 +1,7 @@
 # language: pt
 
 @produto
+@all
 Funcionalidade: [Ver] informações do produto
     COMO usuário
     QUERO poder ver mais informações 
