@@ -1,0 +1,181 @@
+[
+  {
+    "uri": "features/specs/bag/bag.feature",
+    "id": "[sacola]-fazer-compras",
+    "keyword": "Funcionalidade",
+    "name": "[Sacola] fazer compras",
+    "description": "    COMO usuário\n    QUERO poder adicionar produtos ao carrinho\n    PARA realizar compras",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@bag",
+        "line": 3
+      },
+      {
+        "name": "@all",
+        "line": 4
+      }
+    ],
+    "elements": [
+      {
+        "id": "[sacola]-fazer-compras;adicionar-produto-na-sacola",
+        "keyword": "Cenário",
+        "name": "Adicionar produto na sacola",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@bag",
+            "line": 3
+          },
+          {
+            "name": "@all",
+            "line": 4
+          },
+          {
+            "name": "@bag_add",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35300
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9476849100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que esteja na home",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/login/login_steps.rb:1"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Net::ReadTimeout (Net::ReadTimeout)\n./features/step_definitions/login/login_steps.rb:3:in `\"que esteja na home\"'\nfeatures/specs/bag/bag.feature:12:in `Dado que esteja na home'",
+              "duration": 60003247400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:69"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Quando ",
+            "name": "busco o produto dress",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/busca/busca_step.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:69"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "E ",
+            "name": "adiciono ao carrinho",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/bag/bag_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:69"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Então ",
+            "name": "irá aparecer um modal podendo continuar compras ou finalizar compra",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/bag/bag_steps.rb:21"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:69"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33251668900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41200
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

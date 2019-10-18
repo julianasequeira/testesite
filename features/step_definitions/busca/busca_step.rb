@@ -12,7 +12,8 @@ Quando(/^passo o mouse no tipo de produto e clico em sub opcao$/) do
   @menu_page = @home.menu_form.sub_option
 end
 
-Então(/^deve aparecer uma lista de produtos$/) do                                
+Então(/^deve aparecer uma lista de produtos$/) do     
+  binding.pry                           
   expect(@home).to have_product_list
 end                      
 

@@ -34,7 +34,7 @@ Capybara.configure do |config|
   config.app_host = URL
 end
 
-Capybara.default_max_wait_time = 10
+Capybara.default_max_wait_time = 30
 
 SitePrism.configure do |config|
   config.use_implicit_waits = true
