@@ -12,10 +12,10 @@ Quando(/^passo o mouse no tipo de produto e clico em sub opcao$/) do
   @menu_page = @home.menu_form.sub_option
 end
 
-Então(/^deve aparecer uma lista de produtos$/) do                                
-  expect(@home).to have_product_list
+Então(/^deve aparecer uma lista de produtos$/) do 
+  expect(@search_page).to have_product_list
 end                      
 
 Então(/^deve aparecer uma mensagem para avisar que não tem o produto$/) do
-  expect(@home).not_to have_product_list
+  expect(@search_page).not_to have_product_list
 end

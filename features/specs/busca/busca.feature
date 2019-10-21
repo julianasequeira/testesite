@@ -26,8 +26,8 @@ Funcionalidade: [Busca] buscar por produtos
         Quando busco o produto batatinha
         Então deve aparecer uma mensagem para avisar que não tem o produto
 
-@busca_subopcao
-    Cenário: Acessar sub-opção no menu do header
-        Dado que esteja na home
-        Quando passo o mouse no tipo de produto e clico em sub opcao
-        Então deve aparecer uma lista de produtos
+# @busca_subopcao
+#     Cenário: Acessar sub-opção no menu do header
+#         Dado que esteja na home
+#         Quando passo o mouse no tipo de produto e clico em sub opcao
+#         Então deve aparecer uma lista de produtos

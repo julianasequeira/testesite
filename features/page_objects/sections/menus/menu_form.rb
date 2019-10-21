@@ -5,7 +5,7 @@ module Sections
     
     def sub_option
       menu_elements[1].hover
-      sub_elements[1].click
+      sub_elements[0].click
       # binding pry
       MenuPage.new
     end
